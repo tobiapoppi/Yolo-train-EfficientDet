@@ -3,4 +3,4 @@
 	url = https://github.com/xuannianz/EfficientDet.git
 [submodule "Yolo-to-COCO-format-converter"]
 	path = Yolo-to-COCO-format-converter
-	url = https://github.com/Taeyoung96/Yolo-to-COCO-format-converter.git
+	url = https://github.com/tobi1modna/Yolo-to-COCO-format-converter
