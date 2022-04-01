@@ -24,8 +24,8 @@ Specify in the `--imgf` parameter your image extension (the default for this is 
 The parameter `--inplace` is an option for saving your annotation json file in the `<-p>/../annotations/<--output>` folder.
 
 ## Train
-`cd Yolo-train-EfficientDet/EfficientDet`
-`python train.py --snapshot imagenet --phi 0 --gpu 0 --random-transform --compute-val-loss --freeze-backbone --batch-size 32 --steps 1000 coco /data/effD/dataset/yolo_ds_no_bg/`
+* `cd Yolo-train-EfficientDet/EfficientDet`
+* `python train.py --snapshot imagenet --phi 0 --gpu 0 --random-transform --compute-val-loss --freeze-backbone --batch-size 32 --steps 1000 coco /data/effD/dataset/yolo_ds_no_bg/`
 
 //TODO aggiustare il fatto di mettere annotation nella parent di train e test
 sta dando errori su alcune bounding box
