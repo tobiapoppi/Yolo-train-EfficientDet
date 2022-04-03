@@ -26,3 +26,4 @@ The parameter `--inplace` is an option for saving your annotation json file in t
 ## Train
 * `cd Yolo-train-EfficientDet/EfficientDet`
 * `python train.py --snapshot imagenet --phi 0 --gpu 0 --random-transform --compute-val-loss --freeze-backbone --batch-size 32 --steps 1000 coco /data/effD/dataset/yolo_ds_no_bg/`
+* `python train.py --snapshot checkpoints/2022-04-01/coco_26_0.0371_0.3581.h5 --phi 0 --gpu 0 --random-transform --compute-val-loss --freeze-bn --batch-size 4 --steps 10000 coco /data/effD/dataset/yolo_ds_no_bg/`
