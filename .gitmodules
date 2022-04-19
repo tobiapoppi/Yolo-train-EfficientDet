@@ -1,6 +1,6 @@
 [submodule "EfficientDet"]
 	path = EfficientDet
 	url = https://github.com/tobi1modna/EfficientDet.git
-[submodule "Yolo-to-COCO-dsCconverter"]
+[submodule "Yolo-to-COCO-dsConverter"]
 	path = Yolo-to-COCO-dsConverter
 	url = https://github.com/tobi1modna/Yolo-to-COCO-dsConverter.git
